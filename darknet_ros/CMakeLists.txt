@@ -125,6 +125,7 @@ set(DARKNET_CORE_FILES
     ${DARKNET_PATH}/src/data.c                    ${DARKNET_PATH}/src/reorg_layer.c
     ${DARKNET_PATH}/src/deconvolutional_layer.c   ${DARKNET_PATH}/src/rnn_layer.c
     ${DARKNET_PATH}/src/demo.c                    ${DARKNET_PATH}/src/route_layer.c
+    ${DARKNET_PATH}/src/representation_layer.c
     ${DARKNET_PATH}/src/detection_layer.c         ${DARKNET_PATH}/src/shortcut_layer.c
     ${DARKNET_PATH}/src/dropout_layer.c           ${DARKNET_PATH}/src/softmax_layer.c
     ${DARKNET_PATH}/src/gemm.c                    ${DARKNET_PATH}/src/tree.c
