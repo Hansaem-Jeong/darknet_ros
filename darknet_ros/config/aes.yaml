@@ -1,0 +1,21 @@
+yolo_model:
+
+  config_file:
+    name: yolov4-tiny-bdd100k.cfg
+  weight_file:
+    name: yolov4-tiny-bdd100k_best.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - FVL
+      - FVI
+      - FVR
+      - Bus
+      - Truck
+      - Person
+      - Bicycle
+      - Motorbike
+      - Traffic sign
+      - Traffic light
+      - Rider
